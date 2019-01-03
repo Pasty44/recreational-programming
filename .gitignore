@@ -1,0 +1,6 @@
+# Folder for holding uploaded text files
+tmp
+gutenberg/txts
+gutenberg/zips
+.vscode
+.DS_Store

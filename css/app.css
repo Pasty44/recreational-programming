@@ -1,0 +1,128 @@
+/* General app styling */
+html {
+    background: #252525;
+    color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 240px;
+}
+
+html, body {
+    min-height: 100%;
+    margin: 0px;
+    width: 100%;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+.page-title {
+    color: #ED0030;
+    font-size: 4rem;
+    padding: 60px 30px 30px 30px;
+    text-align: center;
+    text-shadow: 3px 3px 0px #3D3D3D;
+}
+
+/* Upload button styling */
+.upload-container {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.upload-btn-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+  
+.btn {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 8px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+  
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/* Bar graph styling */
+#graph-container {
+    background: #404040;
+    margin: 0 auto;
+    min-width: 600px;
+    width: 850px;
+}
+
+.error-msg {
+    color: #EE0000;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+}
+
+#bars-wrapper {
+    -moz-box-shadow:    0px 0px 20px 5px #101010;
+    -webkit-box-shadow: 0px 0px 20px 5px #101010;
+    box-shadow:         0px 0px 20px 5px #101010;
+    padding: 25px;
+    width: 800px;
+}
+
+.word-container {
+    display: inline-block;
+    height: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+.ratio-container {
+    display: inline-block;
+    height: 15px;
+    text-align: left;
+    width: 100px;
+}
+
+.bar-container {
+    display: inline-block;
+    height: 15px;
+    position: relative;
+    width: 600px;
+}
+
+.bar {
+    background-color: #27FA00;
+    height: 100%;
+}
+
+.bar-count {
+    color: #D20EE5;
+    display: inline;
+    font-size: 0.9rem;
+    font-weight: 600;
+    left: 12px;
+    position: absolute;
+    top: 16px;
+    z-index: 1;
+}
+
+.count-pointer {
+    border-left: 1px solid rgba(210, 14, 229, 0.5);
+    border-bottom: 1px solid rgba(210, 14, 229, 0.65);
+    display: inline-block;
+    height: 9px;
+    left: 4px;
+    position: absolute;
+    top: 15px;
+    width: 5px;
+}
